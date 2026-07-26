@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "name": "agent-guidance",
+  "description": "Portable context for AI tools that accept structured custom instructions.",
+  "globalInstructions": "Paste or reference the contents of global-instructions.md.",
+  "userProfile": {
+    "background": "Paste or reference user-profile/background.md.",
+    "preferences": "Paste or reference user-profile/preferences.md."
+  },
+  "workspaceInstructions": {
+    "filename": "AGENTS.md",
+    "template": "Paste or reference templates/AGENTS.md."
+  },
+  "sync": {
+    "sourceOfTruth": "agent-guidance repository",
+    "reviewBeforePublishing": true,
+    "allowSecrets": false
+  }
+}
